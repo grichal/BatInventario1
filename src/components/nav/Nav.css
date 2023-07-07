@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@700&display=swap');
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    height: 70px;
+    padding: 0px 16px;
+    border-radius: 10px;
+}
+
+.NavbarBrand{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Palanquin Dark', sans-serif;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.navbarmenu{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item{
+    margin-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.5s;
+    font-family: 'Palanquin Dark', sans-serif;
+    margin-left: 32px;
+}
+
+.navbar-item a{
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    transition: all 0.5s;
+    padding: 5px;
+}
+
+.navbar-item a:hover {
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: #79b3f4;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+  }

@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap");
+.cartContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 16px;
+  width: 200px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  font-family: "Palanquin Dark", sans-serif;
+  transition: 1.3s ease-in-out;
+}
+
+.contenido {
+  color: #219ebc;
+  margin-top: -2px;
+  margin-bottom: 10px;
+}
+
+.tarjeta :hover {
+  cursor: pointer;
+}
+
+.imagen-telefono {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.contenido-tarjeta {
+  display: flex;
+  flex-direction: column;
+  margin-top: -20;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.buttonContainer button {
+  border-style: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #219ebc;
+  font-family: "Palanquin Dark", sans-serif;
+  transition: all 0.2s;
+  color: #fff;
+  margin: 6px;
+}
+
+.buttonContainer button:hover {
+  padding: 15px;
+  transition: all 0.2s;
+}
+/*  */
+/* masonry */
+/*  */
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  width: auto;
+  justify-content: center;
+  justify-items: center;
+}
+.my-masonry-grid_column {
+  padding-left: -90px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  background: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+
+/*  */
+/* barra de busqueda */
+/*  */
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.searchBar {
+  margin: 20px;
+  border-style: none;
+  height: 35px;
+  width: 400px;
+  border-radius: 10px;
+  font-family: "Palanquin Dark", sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
+/* este elemento se muestra cuando no hay nada */
+.length0 {
+  font-family: "Palanquin Dark", sans-serif;
+  color: #fff;
+}
+
+.container2 {
+  margin-top: 200px;
+}
+
+.deseasAgregarlo {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  transition: all 0.5s;
+  font-family: "Palanquin Dark", sans-serif;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.deseasAgregarlo a {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.5s;
+  padding: 10px;
+  background-color: #219ebc;
+}
+
+.deseasAgregarlo a:hover {
+  padding: 15px;
+}

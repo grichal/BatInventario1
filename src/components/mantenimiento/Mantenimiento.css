@@ -1,0 +1,27 @@
+body {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+  }
+  
+.padre{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hijo{
+    display: inline-block;
+    padding: 0px 60px;
+}
+input::placeholder{
+    text-align: center;
+}
+
+.hijo.listado {
+    max-height: 100vh; /* Ajusta la altura máxima del listado según tus necesidades */
+    overflow: scroll; /* Agrega una barra de desplazamiento al contenido del listado */
+  }
