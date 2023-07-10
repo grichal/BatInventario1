@@ -12,13 +12,13 @@ function App() {
   return (
     <div>
       <Navi/>
-      <HashRouter basename="/">
+      <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Inventario/>}></Route>
-        <Route path="/mantenimiento" element={<Mantenimiento/>}></Route>
-        <Route path="/test" element={<Carousel/>}/>
+        <Route path="/" element={<Inventario/>}exact></Route>
+        <Route path="/mantenimiento" element={<Mantenimiento/>}exact></Route>
+        
       </Routes>
-      </HashRouter>
+      </BrowserRouter>
       <ToastContainer/>
       </div>
   )
