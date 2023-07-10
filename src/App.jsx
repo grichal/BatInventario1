@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <Navi/>
-      <HashRouter>
+      <HashRouter basename="/">
       <Routes>
         <Route path="/" element={<Inventario/>} exact></Route>
         <Route path="/mantenimiento" element={<Mantenimiento/>} exact></Route>
