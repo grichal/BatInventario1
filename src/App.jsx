@@ -14,9 +14,9 @@ function App() {
       <Navi/>
       <HashRouter basename="/">
       <Routes>
-        <Route path="/" element={<Inventario/>} exact></Route>
-        <Route path="/mantenimiento" element={<Mantenimiento/>} exact></Route>
-        <Route path="/test" element={<Carousel/>} exact/>
+        <Route path="/" element={<Inventario/>}></Route>
+        <Route path="/mantenimiento" element={<Mantenimiento/>}></Route>
+        <Route path="/test" element={<Carousel/>}/>
       </Routes>
       </HashRouter>
       <ToastContainer/>
