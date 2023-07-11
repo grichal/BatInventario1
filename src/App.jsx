@@ -10,17 +10,18 @@ import Carousel from "./components/test/test";
 function App() {
  
   return (
+    <HashRouter>
     <div>
       <Navi/>
-      <BrowserRouter>
+      
       <Routes>
         <Route path="/" element={<Inventario/>}exact></Route>
         <Route path="/mantenimiento" element={<Mantenimiento/>}exact></Route>
-        
       </Routes>
-      </BrowserRouter>
+      
       <ToastContainer/>
       </div>
+      </HashRouter>
   )
 }
 
