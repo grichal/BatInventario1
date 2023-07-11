@@ -5,23 +5,24 @@ import Mantenimiento from "./components/mantenimiento/Mantenimiento";
 import Navi from "./components/nav/Nav";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import Carousel from "./components/test/test";
+
 
 function App() {
  
   return (
-    <HashRouter>
+    
     <div>
       <Navi/>
-      
+
+      <HashRouter future={{ v7_startTransition: true }}>
       <Routes>
         <Route path="/" element={<Inventario/>}exact></Route>
         <Route path="/mantenimiento" element={<Mantenimiento/>}exact></Route>
       </Routes>
-      
+      </HashRouter>
       <ToastContainer/>
       </div>
-      </HashRouter>
+      
   )
 }
 

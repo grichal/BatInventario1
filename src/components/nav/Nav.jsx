@@ -13,7 +13,7 @@ function Navi(){
         <nav className="navbar">
             <div className="NavbarBrand" onClick={()=>{window.location.href='/'}}>BAT</div>
             <div className="navbarmenu">
-                <div className="navbar-item"> <a href="/mantenimiento">MANTENIMIENTO</a> </div>
+                <div className="navbar-item"> <a href="mantenimiento">MANTENIMIENTO</a> </div>
                 <div className="navbar-item"> <a href="/">INVENTARIO</a></div>
                 <div className="navbar-item"> <a onClick={carrito}>FACTURAR</a></div>
             </div>
