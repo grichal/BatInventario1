@@ -14,12 +14,12 @@ function App() {
     <div>
       <Navi/>
 
-      <HashRouter future={{ v7_startTransition: true }}>
+      <BrowserRouter>
       <Routes>
         <Route path="/" element={<Inventario/>}exact></Route>
         <Route path="/mantenimiento" element={<Mantenimiento/>}exact></Route>
       </Routes>
-      </HashRouter>
+      </BrowserRouter>
       <ToastContainer/>
       </div>
       
